@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+<body>
+
+<video autoplay muted loop>
+    <source src="Grid.mp4" type="video/mp4" muted loop>
+</video>
+
+
+<nav>
+    <div id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<main>
+<form action="https://formspree.io/f/mvgpjbnw" method="POST">
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+        
+    <label for="fname">First Name *</label>
+    <input type="text" id="fname"
+    name="fname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name *</label>
+    <input type="text" id="lname"
+    name="lname" placeholder="Your last name.." required>
+
+    <label for="jtitle">Job Title</label>
+    <input type="text" id="jtitle"
+    name="jtitle" placeholder="Your Job Title..">
+
+    <label for="company">Company</label>
+    <input type="text" id="company"
+    name="company" placeholder="Your Company name.." required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone"
+    name="phone" placeholder="Your Phone no..">
+
+    <label for="email">Email *</label>
+    <input type="email" id="email"
+    name="email" placeholder="Your Email Address.." required>
+
+    <label for="subject">Subject *</label>
+    <input type="text" id="subject"
+    name="subject" placeholder="Subject">
+
+    <label for="message">Message *</label>
+    <textarea name="message" rows="20" cols="30" 
+    placeholder="Please write your message here.." 
+    required>
+    </textarea>
+
+    <input type="submit" value="Submit">
+
+</form>
+</main>
+<footer>
+    <p>© 2024 Rajpirasanna Rajaratnam</p>
+    <a href="https://www.linkedin.com/in/rajpirasanna-rajaratnam-61aaa4300/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/Agniraj1980" target="_blank"><i class="fa fa-github"></i></a>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
